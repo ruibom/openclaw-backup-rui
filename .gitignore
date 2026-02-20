@@ -1,4 +1,12 @@
-.DS_Store
 .env
-**/*.key
-**/secrets*
+*.key
+*.pem
+*.token
+openclaw.json
+session*
+credentials/
+memory/*.pdf
+assets/*.pdf
+skills/*/secrets*
+.DS_Store
+Thumbs.db

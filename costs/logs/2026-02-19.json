@@ -1,0 +1,10 @@
+[{
+  "timestamp": "2026-02-19T07:45:06Z",
+  "model": "kimi",
+  "tokens": {
+    "input": 18000,
+    "output": 590,
+    "total": 18590
+  },
+  "cost_usd": 0.006108
+}]

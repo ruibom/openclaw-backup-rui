@@ -1,0 +1,30 @@
+{
+  "strategy": "Use Kimi 2.5 by default, Anthropic only for brain-heavy tasks",
+  "models": {
+    "kimi": {
+      "id": "moonshot/kimi-k2.5",
+      "name": "Kimi K2.5",
+      "input_cost_per_1m": 0.30,
+      "output_cost_per_1m": 1.20,
+      "use_for": "default - fast, cheap, most tasks",
+      "context_window": 262144
+    },
+    "sonnet": {
+      "id": "anthropic/claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5",
+      "input_cost_per_1m": 3.00,
+      "output_cost_per_1m": 15.00,
+      "use_for": "brain heavy - complex reasoning, coding, deep analysis",
+      "context_window": 200000
+    },
+    "opus": {
+      "id": "anthropic/claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "input_cost_per_1m": 15.00,
+      "output_cost_per_1m": 75.00,
+      "use_for": "EXTREME - max reasoning, critical decisions only",
+      "context_window": 200000
+    }
+  },
+  "notes": "Pricing is approximate USD per 1M tokens. Actual costs may vary by provider tier/region."
+}
