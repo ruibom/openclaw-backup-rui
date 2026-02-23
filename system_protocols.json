@@ -1,0 +1,27 @@
+{
+  "routing": {
+    "default": "openrouter/auto",
+    "strategy": "cost",
+    "tiers": {
+      "0-ultra-cheap": {
+        "models": ["google/gemini-flash-lite", "deepseek/deepseek-v3", "qwen/qwen3-coder-next"],
+        "tasks": ["heartbeat", "daily-note", "qmd-search", "logging", "routine-scan", "simple-delegation"]
+      },
+      "3-general": {
+        "models": ["anthropic/claude-3-haiku", "anthropic/claude-haiku-4.5"],
+        "tasks": ["general-chat", "planning", "ui", "most-responses"]
+      },
+      "2-research": {
+        "models": ["moonshot/kimi-k2.5", "google/gemini-2.5-flash"],
+        "tasks": ["long-context-parse", "heavy-knowledge-graph", "transcript"]
+      },
+      "1-architect": {
+        "models": ["anthropic/claude-opus-4.6"],
+        "tasks": ["final-polish", "complex-architecture", "high-stakes"]
+      }
+    }
+  },
+  "failover": "drop-one-tier",
+  "caching": "enabled",
+  "platform_fee_note": "5.5% unavoidable"
+}
