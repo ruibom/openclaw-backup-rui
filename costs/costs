@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Quick alias for cost tracker
-exec "$(dirname "$0")/cost-tracker.sh" "$@"

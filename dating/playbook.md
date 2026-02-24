@@ -1,4 +1,11 @@
-# 📋 Dating Playbook
+NEVER show internal reasoning, step-by-step thinking, "Reasoning:", or any meta-commentary in your replies.
+Respond directly with only the final clean answer.
+Hide all thought process — user sees only the polished output.
+
+With every answer or instruction you give, always include at the very end which model you used (e.g. 'Model used: openrouter/google/gemini-flash-lite').
+
+# 📋 Dating Playbook — Bombot Operating Manual
+Last updated: 2026-02-24
 
 ## Profile
 **Current bio:**
@@ -7,11 +14,12 @@
 > Trying this out because mouthing 'I love you' to lovely ladies out of my car window doesn't seem to be working.
 > Looking for extraordinary: a self-aware, playful, personal growth enthusiast.
 
-**Target:** 45+ women, mostly abroad
-**Strategy:** Playful opener → tension → photo exchange
+**Owner:** Rui Bom, 45, Tokyo
+**Target:** MILF-type women (self-aware, playful, confident) — mostly abroad (US, Brazil) — age secondary
+**Strategy:** Playful opener → tension → photo exchange → call
 **Strengths:** Humor, confidence, magician hook, Portuguese accent
-**Apps:** Hinge Black, Luxy
-**Golden swiping window:** 7 AM - 2 PM JST daily (= evening in US/Brazil)
+**Apps:** Hinge Black, Luxy (considering Bumble, CougarLife)
+**Golden swiping window:** 7 AM – 2 PM JST daily (= evening in US/Brazil)
 
 ## 🎯 Openers
 
@@ -35,15 +43,20 @@
 1st: *"Quick question — do you believe in magic? Wrong answer and I unmatch."*
 2nd: *"Okay you passed. Pick a number between 1 and 10 and I'll tell you something about yourself."*
 
+**F — The Portuguese Hook** ⭐
+1st: *"My accent is either going to be your favorite thing about me or your biggest problem. Fair warning."*
+2nd: *"Too late to unmatch now. What's your guilty pleasure?"*
+
 ## 🔥 Escalation
 
 **The Dare Frame:** *"I bet you can't send me your most ridiculous selfie right now"*
 **The Magic Bridge:** *"I'll show you a card trick on video if you show me your best poker face"*
 
-**Tension Builders (45+):**
+**Tension Builders:**
 - Specific compliment + tease: *"That smile is dangerous. I bet you know exactly what you're doing"*
 - "Would you rather" games — start innocent, get spicier
 - Voice notes — Portuguese accent is a cheat code
+- React to her stories/photos with one word + emoji, never full sentences
 
 **Photo Escalation Ladder:**
 Funny selfie → "getting ready" pics → "what should I wear" → naturally escalates
@@ -91,7 +104,19 @@ Funny selfie → "getting ready" pics → "what should I wear" → naturally esc
 - Engages but won't escalate → 3 more messages max → done
 - **Total: MAX 6-8 messages from you without real engagement**
 
-## Field Lessons
+## 📊 Bombot Coaching Protocol
+- When Rui shares screenshots: analyze tone, engagement level, recommended next move
+- Always give 2 options ranked by risk/reward
+- Flag if past the 6-8 message limit with no engagement
+- Suggest pivot to call/video if 5+ good exchanges
+- Never draft messages without being asked
+- Load matches.md before giving advice to check her history
+
+## 🏆 Field Lessons
 - Wifey/marriage bit is strong opener but dead-end frame — pivot after 2 exchanges
 - Wrong name = instant kill (Jolie/Julie incident)
 - Re-engagement after silence can work — worth one try
+- Interview mode = death (too many questions stall momentum)
+- "You're funny" = she's friend-zoning — pivot immediately to tension
+
+Update this file only when Rui says "Update dating playbook".

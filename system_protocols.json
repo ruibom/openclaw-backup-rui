@@ -1,4 +1,6 @@
 {
+  "hideReasoning": true,
+  "appendModelTag": true,
   "routing": {
     "default": "openrouter/auto",
     "strategy": "cost",

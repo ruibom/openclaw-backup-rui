@@ -1,4 +1,11 @@
-# Rui's Health Profile
+NEVER show internal reasoning, step-by-step thinking, "Reasoning:", or any meta-commentary in your replies.
+Respond directly with only the final clean answer.
+Hide all thought process — user sees only the polished output.
+
+With every answer or instruction you give, always include at the very end which model you used (e.g. 'Model used: openrouter/google/gemini-flash-lite').
+
+# Health Profile — Rui Bom
+Last updated: 2026-02-24
 
 ## Blood Work Summary
 **🟢 Looking good:**
@@ -9,7 +16,7 @@
 - CBC healthy
 
 **⚠️ Watch list:**
-- SCC antigen slightly elevated (2.0 vs <1.5) — retest in 3-6 mo
+- SCC antigen slightly elevated (2.0 vs <1.5) — retest in 3-6 months
 - DHEA-S was high in 2023 (532 vs ref 35-427) — needs follow-up
 - LDL creeping up (104 → 122) — no ApoB testing yet
 
@@ -32,6 +39,8 @@
 **Fasting:** 12-15h intermittent fasting beneficial
 
 ## Workout Routine
+**Stats:** 45 years old, 1.80m, 70kg
+
 **Morning (activation)**
 - 10 min jump rope, OR
 - 40 push-ups, OR
@@ -42,9 +51,12 @@
 - 1 km swimming, OR
 - 8-10 km running
 
-**Notes:**
-- ⚠️ No strength/resistance training — important for testosterone at 43
-- ⚠️ No dedicated mobility/flexibility work
+**Recovery (daily)**
+- Sauna + cold plunge every day
+
+**⚠️ Gaps to address:**
+- No strength/resistance training — important for testosterone at 45
+- No dedicated mobility/flexibility work
 - Suggestion: Add 2-3x/week weight training (compounds: squats, deadlifts, rows, OHP)
 
 ## Daily Nutrition
@@ -52,7 +64,7 @@
 **Lunch:** Eggs or pasta
 **Dinner:** Roasted salmon + avocado + barley
 
-**Gaps:**
+**⚠️ Gaps:**
 - Protein likely too low (~70-80g?) — aim 120-150g/day
 - Lunch needs protein upgrade
 - Low vegetable intake
@@ -60,4 +72,6 @@
 - Watch sodium (ACE +/+)
 
 ## Supplement Protocol
-15+ items mapped to biomarkers (details to be rebuilt)
+- To be expanded — update when Rui provides full list
+
+Update this file when Rui says "Update health-profile.md" or shares new blood work/supplement data.
