@@ -30,6 +30,10 @@ Every entry MUST have:
 
 ## Application Template
 
+Reference: https://raw.githubusercontent.com/ruibom/openclaw-backup-rui/main/applications/eftsure-head-revops.md
+
+This is the template to follow for ALL applications.
+
 Each application file must include:
 1. Job Details (company, role, location, link, fit score)
 2. Company Research (about, funding, stage, size)
@@ -40,12 +44,31 @@ Each application file must include:
 
 ## Quality Standards
 
-- Answers must be concise and direct (not LinkedIn posts)
-- Use bullet points with facts/data
-- No "Let me tell you a story" - just answer the question
-- Each answer 2-4 sentences max
-- Include specific numbers (3x revenue, 250+ startups, etc.)
-- Automation ideas need step-by-step tutorials
+### Application Answers Format (Like Eftsure)
+- Section headers for each question
+- Paragraph style answers (not bullet points unless needed)
+- Data-driven: include specific numbers (3x revenue, 250+ startups, etc.)
+- Concise but detailed - answer the question directly
+- No "Let me tell you a story" intro - just answer
+
+### Each Application Must Have:
+1. Job Details (company, role, location, link, fit score)
+2. Company Research (about, funding, stage, size)
+3. Leadership contacts (with LinkedIn URLs)
+4. Application Answers (per questions asked - follow Eftsure format)
+5. Automation Ideas (what/why/how/steps/time/ROI)
+6. Next Steps checklist
+
+### Automation Ideas Format
+- What we're building
+- Why we're building it  
+- What to expect
+- Step-by-step (numbered)
+- Time and ROI
+
+### Links Verification
+- ALWAYS verify links work before adding to Notion
+- Make repo PUBLIC so links work permanently (no token issues)
 - Every link must be verified working before adding to Notion
 
 ## Daily Workflow
