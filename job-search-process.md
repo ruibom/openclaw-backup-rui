@@ -40,8 +40,11 @@ Each application file must include:
 
 ## Quality Standards
 
-- Answers must be comprehensive (like Eftsure example)
-- Include "Let me tell you a story" format
+- Answers must be concise and direct (not LinkedIn posts)
+- Use bullet points with facts/data
+- No "Let me tell you a story" - just answer the question
+- Each answer 2-4 sentences max
+- Include specific numbers (3x revenue, 250+ startups, etc.)
 - Automation ideas need step-by-step tutorials
 - Every link must be verified working before adding to Notion
 
