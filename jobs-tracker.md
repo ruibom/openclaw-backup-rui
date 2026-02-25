@@ -25,3 +25,28 @@
 - **Concerns**: US-only - excludes global remote
 - **Link**: https://www.wpromote.com/careers/9c67b1fc-0a3c-417e-bb26-6d3d4ecfd611/
 - **Added**: 2026-02-25
+
+---
+
+### Checkbox - Director of Revenue Operations
+- **Status**: OPEN
+- **Posted**: 1 day ago
+- **Location**: Remote (US) or New York, Hybrid
+- **Company**: Series A, 70 people, US/Australia/Asia
+- **Fit Score**: 3/5
+- **Why**: Remote option, global team (AU/Asia), growth-stage
+- **Concerns**: Series A (not B-C), North America focus only
+- **Next**: Consider applying
+- **Link**: https://revopscareers.com/job/checkbox-director-of-revenue-operations/
+- **Added**: 2026-02-25
+
+---
+
+### Hoxhunt - Revenue Operations Director
+- **Status**: RESEARCHING
+- **Posted**: 5 days ago
+- **Location**: Need to verify (page blocked by cookie wall)
+- **Company**: SaaS (security training)
+- **Fit Score**: TBD
+- **Link**: https://careers.hoxhunt.com/jobs/7273001-revenue-operations-director
+- **Added**: 2026-02-25

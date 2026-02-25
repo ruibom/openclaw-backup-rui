@@ -6,7 +6,20 @@
 
 ---
 
-## 2025
+## 2026
+
+### February 2026
+
+#### Wednesday, February 25, 2026
+
+| Meal | Calories | Protein | Carbs | Fat |
+|------|----------|---------|-------|-----|
+| Spontini pizza (mushrooms, partly eaten) | ~600-800 | ~25g | ~70g | ~30g |
+| **Daily Total** | **~600-800** | **~25g** | **~70g** | **~30g** |
+
+**Remaining:** -1,700-1,900 kcal | -155g protein | -130-150g carbs | -50g fat
+
+---
 
 ### February 2025
 
@@ -49,8 +62,9 @@
 
 ## Notes
 
+- 2026-02-25: Dinner — Spontini pizza (mushrooms, partly eaten)
 - 2025-02-24: First logged meal — barley avocado egg brusselsprout salad from Crispsalad Works
 
 ---
 
-*Last updated: 2025-02-24*
+*Last updated: 2026-02-25*
