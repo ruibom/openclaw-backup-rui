@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "Notes": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "=== REVENUE ARCHITECTURE FRAMEWORK ===\nMy approach: People + Process + Systems + Philosophy. Not dashboards.\n\n**Problems I'll solve:** Multi-region fragmentation, HubSpot at scale, 100+ org process drift.\n\n**Q1: 100+ GTM experience**\nAt Penbrothers: rebuilt end-to-end GTM, 3x revenue in 12 months. AI-automated outbound, territories from scratch, forecasting model from hope to math. Built coaching culture — reps knew numbers, knew gap, knew next step. No heroics.\n\nAlso mentored 250+ startups through 500 Startups. Every SaaS struggles with: pipeline mystery, CRM decay, forecast fantasy. Solved all three.\n\n**Q2: HubSpot**\nImplemented from ground up at Penbrothers. Automated sequences 3x industry avg. Lead scoring, pipeline automation, CRM hygiene as non-negotiable. Philosophy: CRM is a mirror, not magic. Fix foundation first.\n\n**Q3: Forecasting**\nCommit-Expected-Best model. Build into HubSpot with custom fields. Weekly we know the number — not $50K-$500K range. Drove 3x growth at Penbrothers.\n\n**Q4: Why Eftsure?**\n1) $5T fraud problem that matters. 2) Regional to global inflection = exact architecture challenge I love. Based Tokyo, time zones OK.\n\n**Q5-7:** Market rate salary, 2 weeks notice, Portuguese citizen based Tokyo.\n\n**AUTOMATION IDEAS:**\n1. Multi-Region Lead Routing (HubSpot workflow, 2-4hrs)\n2. CRM Hygiene Suite (data quality scorecard, 3-5hrs)\n3. Cross-Region Forecasting Dashboard (4-6hrs)\n\nFull version: applications/eftsure-head-revops.md"
+          }
+        }
+      ]
+    }
+  }
+}

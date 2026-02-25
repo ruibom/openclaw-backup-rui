@@ -1,0 +1,109 @@
+{
+  "children": [
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{"type": "text", "text": {"content": "Application Q&A"}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{"type": "text", "text": {"content": "Q1: Experience leading global GTM (100+ people)"}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{"type": "text", "text": {"content": "I've led and scaled revenue operations for 10+ years, most recently driving 3x revenue growth at Penbrothers (B2B SaaS in Philippines). I built and managed a global sales and GTM team across multiple regions. I've also mentored 250+ startups through 500 Startups, Plug and Play, and other accelerators — helping them structure sales teams, implement CRM hygiene, and build repeatable revenue engines. Comfortable leading distributed teams across time zones."}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{"type": "text", "text": {"content": "Q2: HubSpot experience"}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{"type": "text", "text": {"content": "Extensive experience with HubSpot — implementing from ground up at Penbrothers, building automated outbound sequences, managing CRM hygiene at scale, integrating with sales intelligence tools. Created custom workflows for lead scoring, automated follow-ups, and pipeline management."}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{"type": "text", "text": {"content": "Q3: Forecasting and revenue analytics approach"}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{"type": "text", "text": {"content": "Data-first approach: build dashboards, track KPIs, translate insights into action. At Penbrothers, built forecasting model that drove 3x revenue growth. Use advanced Excel for modelling + BI tools for real-time visibility. Philosophy: if you can't measure it, you can't improve it."}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{"type": "text", "text": {"content": "Q4: Why Eftsure?"}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{"type": "text", "text": {"content": "Eftsure is at a critical inflection point — scaling from regional to global, fighting real cybercrime, with a mission that matters. I want to help build the revenue engine that gets them to IPO-level growth. Based in Tokyo (AU timezone manageable), excited to own RevOps end-to-end."}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{"type": "text", "text": {"content": "Q5: Salary expectations"}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{"type": "text", "text": {"content": "Open to discussion. Market rate for this level ($180-250K AUD) depending on equity and benefits."}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{"type": "text", "text": {"content": "Q6: Notice period"}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{"type": "text", "text": {"content": "2 weeks notice period."}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{"type": "text", "text": {"content": "Q7: Visa/Location"}}]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{"type": "text", "text": {"content": "Portuguese citizen, no visa required. Based in Tokyo, Japan. Happy to work hybrid from Sydney office as needed."}}]
+      }
+    }
+  ]
+}
