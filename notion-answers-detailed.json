@@ -1,0 +1,60 @@
+{
+  "parent": {"page_id": "3124affb-d00c-80a6-bfaf-fcebbd2fccf4"},
+  "properties": {
+    "title": {"title": [{"text": {"content": "Eftsure - Full Application Answers (Detailed)"}}]}
+  },
+  "children": [
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {"rich_text": [{"text": {"content": "Application Answers"}}]}
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {"rich_text": [{"text": {"content": "Q1: Experience leading global GTM (100+ people)"}}]}
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {"rich_text": [{"text": {"content": "I led Sales at Penbrothers, a B2B SaaS platform in the Philippines. When I joined, the sales operation was ad-hoc - no real process, no forecasting, CRM was a data graveyard. In 12 months, I: Rebuilt the entire outbound engine, designed territories from scratch, built a forecasting model that worked - 3x revenue growth. Also mentored 250+ startups through 500 Startups and Plug and Play. Every one struggled with pipeline mystery, CRM decay, and forecast fantasy. I've solved all three at scale."}}]}
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {"rich_text": [{"text": {"content": "Q2: HubSpot experience"}}]}
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {"rich_text": [{"text": {"content": "Implemented HubSpot from ground up at Penbrothers. Built automated outbound sequences (3x industry average), created lead scoring models, set up pipeline automation, integrated with ZoomInfo/Apollo/Clearbit, enforced CRM hygiene. Philosophy: HubSpot is a mirror - if your data is messy, your decisions are bad."}}]}
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {"rich_text": [{"text": {"content": "Q3: Forecasting approach"}}]}
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {"rich_text": [{"text": {"content": "Commit-Expected-Best model: Commit (100% confident), Expected (weighted by stage/history), Best (upside). Built in HubSpot with custom fields. Every week we knew exactly what we would close - not a range. Drove 3x growth at Penbrothers."}}]}
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {"rich_text": [{"text": {"content": "Q4: Why Eftsure?"}}]}
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {"rich_text": [{"text": {"content": "1) The problem is real - B2B payment fraud is a $5T problem. 2) The inflection point - going from regional to global is exactly the phase I thrive in. Based in Tokyo, time zones don't scare me."}}]}
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {"rich_text": [{"text": {"content": "Automation 1: Multi-Region Lead Routing"}}]}
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {"rich_text": [{"text": {"content": "=== WHAT WE'RE BUILDING ===\nA HubSpot workflow that automatically routes new leads to the right regional sales team based on company location, and sets up personalized follow-up sequences that match each region's business hours.\n\n=== WHY WE'RE BUILDING IT ===\nWhen you have 3 regions (AU, US, EU), leads often get routed manually or randomly. This causes: slow response times (lead contacted during their night), leads contacted at wrong times, no regional customization. The result is lower conversion and wasted leads.\n\n=== WHAT TO EXPECT ===\n- Every new lead gets assigned to the right regional rep within seconds\n- Follow-up emails send at appropriate local times (9am in Sydney, 9am in Dallas, 9am in Paris)\n- No manual routing needed - the system does it automatically\n- Consistent experience for leads across all regions\n\n=== STEP-BY-STEP TUTORIAL ===\n\nPREREQUISITES:\n- HubSpot Professional or above (needed for workflows)\n- Clearbit or ZoomInfo account (for company enrichment)\n- At least 2 sales reps across different regions\n\nSTEP 1: Create region property in HubSpot\n1. Go to Settings (gear icon) > Properties\n2. Select Contacts > Click \"Create property\"\n3. Property name: \"Region\"\n4. Property type: Dropdown select\n5. Add options: Australia, US, Europe, Other\n6. Click Save\n\nSTEP 2: Set up Clearbit/ZoomInfo integration (if not done)\n1. Go to Settings > Integrations > Marketplace\n2. Search for Clearbit or ZoomInfo\n3. Click \"Install\" and follow auth instructions\n4. Make sure enrichment is enabled for contacts\n\nSTEP 3: Build the routing workflow\n1. Go to Automation > Workflows\n2. Click \"Create workflow\" > \"From scratch\"\n3. Select \"Contact-based\"\n4. Name it: \"Lead Routing - By Region\"\n\nTRIGGER SETUP:\n1. Click \"Set trigger\"\n2. Search for \"Form submission\"\n3. Select your main forms (contact form, demo request, etc.)\n4. Or use \"Contact property changes\" > \"Domain\" > \"is not empty\"\n\nACTION 1 - Enrich company:\n1. Click \"+\" > \"Data enrichment\"\n2. Select Clearbit or ZoomInfo\n3. Action: \"Enrich company data\"\n4. Select properties to pull: company name, domain, employee count, industry, revenue\n\nACTION 2 - Set region property:\n1. Click \"+\" > \"Contact property\"\n2. Set \"Region\" to...\n3. Click \"+\" to add branches\n4. Branch 1: If company domain ends with \".au\" > Set to \"Australia\"\n5. Branch 2: If company domain ends with \".com\" (US company) > Set to \"US\"\n6. Branch 3: If company domain ends with \".co.uk\" OR \".de\" OR \".fr\" > Set to \"Europe\"\n7. Default: Set to \"Other\"\n\nACTION 3 - Assign owner:\n1. Click \"+\" > \"Contact owner\"\n2. Set owner based on region\n3. Branch: If Region = Australia > Set owner to [AU Rep]\n4. Branch: If Region = US > Set owner to [US Rep]\n5. Branch: If Region = Europe > Set owner to [EU Rep]\n\nACTION 4 - Enroll in sequence:\n1. Click \"+\" > \"Sales email\"\n2. Select \"Enroll in sequence\"\n3. Branch: If Region = Australia > Select \"AU Follow-up Sequence\"\n4. Branch: If Region = US > Select \"US Follow-up Sequence\"\n5. Branch: If Region = Europe > Select \"EU Follow-up Sequence\"\n\nSTEP 4: Create region-specific email sequences\n1. Go to Sales > Sequences\n2. Click \"Create sequence\"\n3. Create 3 separate sequences:\n\nAU SEQUENCE (send times 9am AEST):\n- Email 1: Welcome (send immediately)\n- Email 2: Follow up (delay 2 days, send 9am AEST)\n- Email 3: Final check (delay 3 days, send 9am}
