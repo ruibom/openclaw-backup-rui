@@ -59,6 +59,21 @@ Last updated: 2026-02-24
 - No dedicated mobility/flexibility work
 - Suggestion: Add 2-3x/week weight training (compounds: squats, deadlifts, rows, OHP)
 
+## Workout Log
+
+### 2026
+
+#### February 2026
+
+##### Wednesday, February 25, 2026
+- **1 km swim** (mixed strokes):
+  - 250m kickboard freestyle
+  - 250m kickboard backstroke
+  - 250m backstroke
+  - 250m freestyle
+- **Duration:** ~30 min
+- **Intensity:** Moderate
+
 ## Daily Nutrition
 **Breakfast (smoothie):** Banana + 20g vegan protein + red berries + 5g creatine + beetroot powder. Coffee with oat milk.
 **Lunch:** Eggs or pasta

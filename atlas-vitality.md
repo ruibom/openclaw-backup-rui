@@ -15,9 +15,10 @@
 | Meal | Calories | Protein | Carbs | Fat |
 |------|----------|---------|-------|-----|
 | Spontini pizza (mushrooms, partly eaten) | ~600-800 | ~25g | ~70g | ~30g |
-| **Daily Total** | **~600-800** | **~25g** | **~70g** | **~30g** |
+| こだわり卵のたっぷりホイップWシュー (cream puff) | ~300 | ~6g | ~35g | ~15g |
+| **Daily Total** | **~900-1,100** | **~31g** | **~105g** | **~45g** |
 
-**Remaining:** -1,700-1,900 kcal | -155g protein | -130-150g carbs | -50g fat
+**Remaining:** -1,400-1,600 kcal | -149g protein | -95-115g carbs | -35g fat
 
 ---
 
@@ -63,6 +64,7 @@
 ## Notes
 
 - 2026-02-25: Dinner — Spontini pizza (mushrooms, partly eaten)
+- 2026-02-25: こだわり卵のたっぷりホイップWシュー (cream puff)
 - 2025-02-24: First logged meal — barley avocado egg brusselsprout salad from Crispsalad Works
 
 ---
