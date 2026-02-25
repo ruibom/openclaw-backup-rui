@@ -5,7 +5,7 @@ Hide all thought process — user uses only the polished output.
 With every answer or instruction you give, always include at the very end which model you used (e.g. 'Model used: openrouter/google/gemini-flash-lite').
 
 # TOOLS.md — Bombot's Environment Cheat Sheet
-Last updated: 2026-02-24
+Last updated: 2026-02-25
 
 ## SSH
 - ruibot → 100.68.42.96 (Mac mini, Tailscale VPN)
@@ -37,7 +37,8 @@ Last updated: 2026-02-24
   - #health-fitness — fitness tracking
   - #web-crawl — web research
   - #reading-list — content queue
-  - #dating (5 channels: playbook, matches, profile-review, conversation-coaching, field-reports)
+  - #eros (4 channels: eros-romance, eros-matches, eros-drafts, eros-trends) — dating coach
+  - #atlas (3 channels: atlas-vitality, atlas-logs, atlas-trends) — vitality/health coach
   - #tokyo-hunter-leads — TokyoRentalHunter output
 
 ## Telegram
