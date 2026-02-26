@@ -2,7 +2,9 @@
 
 ## Before Adding to Notion
 
-### Criteria Check (Only 4/5 and 5/5)
+### Fit Score Check
+- Only add jobs with **4/5 or 5/5 fit**
+- Remove any 1/5, 2/5, or 3/5 entries from Notion
 - Remote/global (not US-only)
 - Series B-C SaaS (scale-up phase)
 - $250K+ compensation
@@ -89,10 +91,11 @@ Each application file must include:
 ## CRITICAL: Job Verification Step
 
 For EVERY job found via Apify:
-- MUST click the job link and verify it's still available
-- Check for "This job was removed" or similar messages
-- If removed/closed → skip, don't add to Notion
-- Only proceed with available jobs
+1. **MUST click the job link** and verify it's still available
+2. Check for "This job was removed" or similar messages
+3. **MUST verify it's the actual application link** - not a generic careers page
+4. If removed/closed or generic link → skip, don't add to Notion
+5. Only proceed with verified, active job postings
 
 ## Lessons Learned (from user feedback)
 
