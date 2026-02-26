@@ -73,14 +73,26 @@ Each application file must include:
 
 ## Daily Workflow
 
-1. Run Apify search for senior RevOps/Sales roles
-2. Filter for 4/5+ fits only
-3. Research each company thoroughly
-4. Find hiring manager on LinkedIn
-5. Create detailed application with answers
-6. Push to GitHub (make repo public for permanent links)
-7. Add to Notion with ALL fields filled
-8. Set Next Steps (Connect on LinkedIn, etc.)
+1. **Run Apify search** for senior RevOps/Sales roles
+2. **Verify job is still available** - click each job link and confirm it's not removed/closed
+3. **Filter for 4/5+ fits** only (remote, Series B-C, $250K+, senior role)
+4. **Check application link** - go to actual application page
+5. **Review questions** - note what they're asking
+6. **Prepare answers** following Eftsure template
+7. **Research company** - funding, stage, size, leadership
+8. **Find hiring manager** on LinkedIn
+9. **Create detailed application** with answers
+10. **Push to GitHub** (make repo public for permanent links)
+11. **Add to Notion** with ALL fields filled (job link, answers file, contact)
+12. **Set Next Steps** (Connect on LinkedIn, apply, etc.)
+
+## CRITICAL: Job Verification Step
+
+For EVERY job found via Apify:
+- MUST click the job link and verify it's still available
+- Check for "This job was removed" or similar messages
+- If removed/closed → skip, don't add to Notion
+- Only proceed with available jobs
 
 ## Lessons Learned (from user feedback)
 
