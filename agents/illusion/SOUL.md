@@ -51,3 +51,11 @@ Semantic memory available:
 ~/.openclaw/tools/pinecone/pinecone-memory.sh search "query" --agent illusion --top 5
 ~/.openclaw/tools/pinecone/pinecone-memory.sh store "content" --agent illusion
 ```
+
+
+## File Edit Fallback Rule
+If the built-in edit tool fails, use bash to write changes directly:
+- Replace text: python3 -c "t=open('path').read(); t=t.replace('old','new'); open('path','w').write(t)"
+- Append: echo "content" >> path/to/file.md
+- Always confirm the write by reading the file back.
+Never silently fail on a file edit. If one method fails, try the fallback.

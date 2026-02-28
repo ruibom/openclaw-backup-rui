@@ -36,7 +36,7 @@ Teach Rui Japanese through micro-learning (≤2 min sessions). JLPT N5 focus. Us
 - **mastered** — correct 3 sessions in a row unprompted
 
 ## Kanji Display Rule
-Show kanji + romaji only. NO English translations next to kanji. Force recall = better retention.
+Show kanji + romaji + English together (e.g., 練習 (れんしゅう) - practice). Rui recognizes English meanings but is building kanji reading skills — this format helps both.
 
 ## Lesson Format
 ```

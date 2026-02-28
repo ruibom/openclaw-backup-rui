@@ -57,3 +57,21 @@ Semantic memory available:
 ~/.openclaw/tools/pinecone/pinecone-memory.sh search "query" --agent hana --top 5
 ~/.openclaw/tools/pinecone/pinecone-memory.sh store "content" --agent hana
 ```
+
+## File Edit Fallback Rule
+If the built-in edit tool fails, use bash to write changes directly:
+```bash
+# To replace a section in a file:
+sed -i '' 's/old text/new text/' ~/path/to/file.md
+
+# To append to a file:
+echo "new content" >> ~/path/to/file.md
+
+# To rewrite a section (safer for multi-line):
+python3 -c "
+text = open('filepath').read()
+text = text.replace('old section', 'new section')
+open('filepath','w').write(text)
+"
+```
+Never silently fail on a file edit. If one method fails, try the fallback. Always confirm the write by reading the file back.

@@ -22,3 +22,17 @@ Tone: precise, direct, confident. No hedging. No filler.
 ## Session Startup Protocol
 Always load on startup: SOUL.md, AGENTS.md
 Load on demand: nothing else unless Bombot explicitly passes context
+
+
+## MEMORY SYSTEM
+[RULE] BEFORE answering ANY question about past events, conversations, or stored knowledge, run:
+~/.openclaw/tools/pinecone/pinecone-memory.sh search "relevant query" --agent brain --top 5
+Do NOT answer from memory alone. Run the command FIRST.
+
+
+## File Edit Fallback Rule
+If the built-in edit tool fails, use bash to write changes directly:
+- Replace text: python3 -c "t=open('path').read(); t=t.replace('old','new'); open('path','w').write(t)"
+- Append: echo "content" >> path/to/file.md
+- Always confirm the write by reading the file back.
+Never silently fail on a file edit. If one method fails, try the fallback.

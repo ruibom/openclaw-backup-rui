@@ -86,3 +86,32 @@ Available via the notion skill. Use for saving/updating entries.
 - NEVER ask Rui for manual input
 - If a tool fails, use the next fallback automatically
 - Report technical errors to Discord, never say "please provide X manually"
+
+## Eros Notion Dashboard — 💘 Dating Leads
+- Database ID: 3154affb-d00c-81cc-a632-fd4b94ad9615
+- URL: https://www.notion.so/3154affbd00c81cca632fd4b94ad9615
+- API Key: loaded from ~/.openclaw/workspace/.env (NOTION_API_KEY)
+
+### Properties
+- Name (title) — post title
+- Age (number) — her age
+- Subreddit (select) — source sub
+- Match Score (number) — algorithm score
+- Status (select) — New | DM Sent | Replied | Conversation | Video Call | Dead
+- Keywords (multi_select) — matched profile keywords
+- Reddit URL (url) — direct link to post
+- Reddit User (rich_text) — u/username
+- Snippet (rich_text) — post preview
+- Draft Message (rich_text) — Eros-drafted DM opener
+- Notes (rich_text) — follow-up notes, conversation log
+- Found Date (date) — when scanner found her
+
+### Scanner
+python3 ~/.openclaw/tools/reddit-dating-scan.py
+- Runs automatically at 08:00 JST via eros-morning-scan cron
+- Scans 11 subreddits, filters Female 30-50, scores by Rui target profile
+- Auto-pushes top 10 leads to Notion, skips duplicates
+
+### Status Updates
+To update a lead status after DM sent:
+curl -X PATCH https://api.notion.com/v1/pages/{PAGE_ID} -H "Authorization: Bearer $NOTION_API_KEY" -H "Notion-Version: 2022-06-28" -H "Content-Type: application/json" -d '{"properties":{"Status":{"select":{"name":"DM Sent"}}}}'

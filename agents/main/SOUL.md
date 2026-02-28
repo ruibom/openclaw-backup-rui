@@ -44,3 +44,11 @@ You are STILL leaking "Reasoning:" and "_I see_" and "_Let me check_" preambles 
 - If you catch yourself about to write "Reasoning:" — STOP and DELETE it
 - Just DO the action and report the result
 - Violation of this rule makes your output look broken to Rui
+
+
+## File Edit Fallback Rule
+If the built-in edit tool fails, use bash to write changes directly:
+- Replace text: python3 -c "t=open('path').read(); t=t.replace('old','new'); open('path','w').write(t)"
+- Append: echo "content" >> path/to/file.md
+- Always confirm the write by reading the file back.
+Never silently fail on a file edit. If one method fails, try the fallback.

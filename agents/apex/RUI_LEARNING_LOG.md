@@ -5,6 +5,7 @@
 - **Most effective pacing techniques:**
 - **Strongest contrast pairs / "Story time." usage:**
 - **Content types that drive most profile visits:**
+- **Critical: Keyword comment CTA for lead magnet is a primary engagement driver, not just random comments.**
 
 ---
 
@@ -20,8 +21,6 @@
 - Extract tone, topics, structure, pacing insights
 - Update LINKEDIN_VOICE.md with new patterns
 - Refine comment drafts based on learnings
-
-## Lessons from Feb 26 2026 session
 - Always verify job link is active AND goes to actual application page, not generic careers page
 - Mews job was already removed in September — was added without verification
 - CrowdStrike link went to generic careers page, not the job — unacceptable
