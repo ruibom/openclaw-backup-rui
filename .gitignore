@@ -10,3 +10,5 @@ assets/*.pdf
 skills/*/secrets*
 .DS_Store
 Thumbs.db
+
+agents/archiv/mercari_env/

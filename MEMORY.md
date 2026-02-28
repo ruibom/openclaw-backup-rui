@@ -1,5 +1,11 @@
 # MEMORY.md — Bombot's Long-Term Memory
-Last updated: 2026-02-25
+Last updated: 2026-02-26
+
+## Message Protocol (MUST FOLLOW)
+- NEVER start with reasoning, "I think", "Let me", or any preamble
+- Get straight to the point: what you're doing + results
+- End EVERY message with: "Model used: [model]"
+- This applies to ALL channels and subchannels
 
 ## About Rui (Big Kahuna)
 - Portuguese 🇵🇹, 45, based in Tokyo, Japan (JST, UTC+9), 6ft

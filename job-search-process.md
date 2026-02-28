@@ -3,8 +3,8 @@
 ## Before Adding to Notion
 
 ### Fit Score Check
-- Only add jobs with **4/5 or 5/5 fit**
-- Remove any 1/5, 2/5, or 3/5 entries from Notion
+- Only add jobs with **8+ out of 10 fit**
+- Remove any 7 or below entries from Notion
 - Remote/global (not US-only)
 - Series B-C SaaS (scale-up phase)
 - $250K+ compensation
@@ -16,7 +16,7 @@ For each job, find:
 1. **Job posting link** - MUST have actual application URL
 2. **Company research** - funding, stage, size, growth
 3. **Leadership** - find hiring manager/CEO on LinkedIn
-4. **Fit score** - only add if 4/5 or 5/5
+4. **Fit score** - only add if 8+ out of 10
 
 ## Notion Entry Requirements
 
@@ -24,9 +24,9 @@ Every entry MUST have:
 - ✅ Company name
 - ✅ Role title
 - ✅ **Job Link** (clickable - actual application URL)
-- ✅ **Answers File** (link to detailed Q&A)
+- ✅ **Application Answers** (link to detailed Q&A)
 - ✅ Contact Person (with LinkedIn URL)
-- ✅ Fit Score (4/5 or 5/5 only)
+- ✅ Fit Score (8+ out of 10 only)
 - ✅ Status (RESEARCH, APPLIED, etc.)
 - ✅ Next Steps
 
@@ -77,7 +77,7 @@ Each application file must include:
 
 1. **Run Apify search** for senior RevOps/Sales roles
 2. **Verify job is still available** - click each job link and confirm it's not removed/closed
-3. **Filter for 4/5+ fits** only (remote, Series B-C, $250K+, senior role)
+3. **Filter for 8+/10 fits** only (remote, Series B-C, $250K+, senior role)
 4. **Check application link** - go to actual application page
 5. **Review questions** - note what they're asking
 6. **Prepare answers** following Eftsure template

@@ -49,6 +49,13 @@ Last updated: 2026-02-24
 
 ## 🔥 Escalation
 
+**Rui's Escalation Flow (updated 2026-02-26):**
+1. Playful messages → build tension
+2. Photo exchanges → get her to send pics first (mirror selfie, flirty, etc.)
+3. Video call → ONLY after photos exchanged and there's chemistry
+
+**⚠️ Video call rule:** Never push for video before photo exchange. Build comfort first. Photos are the litmus test — if she won't send, she won't video.
+
 **The Dare Frame:** *"I bet you can't send me your most ridiculous selfie right now"*
 **The Magic Bridge:** *"I'll show you a card trick on video if you show me your best poker face"*
 
@@ -108,7 +115,8 @@ Funny selfie → "getting ready" pics → "what should I wear" → naturally esc
 - When Rui shares screenshots: analyze tone, engagement level, recommended next move
 - Always give 2 options ranked by risk/reward
 - Flag if past the 6-8 message limit with no engagement
-- Suggest pivot to call/video if 5+ good exchanges
+- Suggest pivot to photo exchange (not video) after 3-5 good exchanges
+- Only suggest video call AFTER photo exchange + chemistry
 - Never draft messages without being asked
 - Load matches.md before giving advice to check her history
 

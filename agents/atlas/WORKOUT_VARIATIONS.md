@@ -14,12 +14,14 @@
 4. Pause & Pulse – 3s bottom + pulses
 5. Full-Body Link – push-up to downward dog + shoulder taps
 
-## Pull-ups
-1. Grip Mix – neutral/wide/chin-up rotation
-2. Slow Negative Ladder
-3. L-Sit or Knee-Raise at top
-4. Towel Grip for forearms
-5. Eccentric Focus – jump up, slow lower
+## Pull-ups (10 reps + 2sec hangs base)
+**Just logged:** 10 pullups + 2sec hangs (2026-02-27 morning)
+
+1. **Explosive Plyo** – explosive drive, release at top, clap if possible, soft re-grip. 2sec hang only at reps 5 & 10. Builds power & fast-twitch.
+2. **Weighted Load** – add 5–7kg dip belt. 8–10 reps, 2sec hang each rep. Pure strength spike.
+3. **Archer Unilateral** – alternate sides: 5 reps chest-to-left, 5 chest-to-right. 2sec hang each. Single-arm prep & shoulder stability.
+4. **Slow Eccentric** – 10 reps with 3sec lowering phase + 2sec hang at top. Hypertrophy & tendon adaptation.
+5. **Wide-Grip + Narrow Finisher** – 6 wide-grip (2sec hang each) + 4 narrow-grip burnout. Lat width + bicep peak.
 
 ## Stationary Bike 30 min (iPad)
 1. Power Intervals synced to music

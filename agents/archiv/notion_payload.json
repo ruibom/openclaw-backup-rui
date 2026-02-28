@@ -1,0 +1,103 @@
+{
+    "parent": { "database_id": "3144affb-d00c-813f-a989-e0d4c1341c35" },
+    "properties": {
+      "Title": {
+        "title": [
+          {
+            "text": {
+              "content": "How to Generate Flawless AI Images (Google's New Model!)"
+            }
+          }
+        ]
+      },
+      "Source URL": {
+        "url": "https://youtu.be/iTKkoGd3YcM?si=iPI6VMIblAS0q9Eb"
+      },
+      "Type": {
+        "select": {
+          "name": "YouTube"
+        }
+      },
+      "Category": {
+        "multi_select": [
+          { "name": "AI" },
+          { "name": "Startups" }
+        ]
+      },
+      "Summary": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "The video by Jack Roberts introduces \"Nano Banana 2,\" Google's new image generation model, highlighting its improvements in speed, control, intelligence, and cost-effectiveness. It focuses on achieving consistent and high-quality AI-generated images through \"JSON prompting\" within an \"Anti-Gravity\" (similar to OpenClaw) environment, leveraging Gemini 3.1 Pro to write these detailed JSON prompts from simpler requests. The process involves creating an organized project structure in Anti-Gravity, defining system prompts, and using custom skills to guide the image generation workflow. Optimizing costs using external platforms and continuous skill improvement through iterative feedback are also discussed."
+            }
+          }
+        ]
+      },
+      "Key Takeaways": {
+        "rich_text": [
+          { "text": { "content": "• Nano Banana 2: Google's new image model offering faster, smarter, and cheaper image generation with improved text accuracy and Google Search integration." } },
+          { "text": { "content": "• JSON Prompting: Crucial for achieving consistent, high-quality, and controlled AI image outputs, allowing for granular specification of image attributes." } },
+          { "text": { "content": "• Anti-Gravity/Gemini for Prompt Generation: Using a smart agent like Gemini 3.1 Pro within Anti-Gravity to convert vague text descriptions into detailed JSON prompts." } },
+          { "text": { "content": "• Skill-based Workflows: Custom skills define the image generation process, enabling reproducible results and continuous improvement through feedback loops." } },
+          { "text": { "content": "• Cost Optimization: Utilizing external execution platforms for potentially lower costs and organizing output into structured folders." }
+          }
+        ]
+      },
+      "Author": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Jack Roberts"
+            }
+          }
+        ]
+      },
+      "Source": {
+        "select": {
+          "name": "YouTube"
+        }
+      },
+      "Rating": {
+        "select": {
+          "name": "⭐⭐⭐ Good"
+        }
+      },
+      "Related To": {
+        "rich_text": [
+          {
+            "text": {
+                "content": "AI, image generation, productivity"
+            }
+          }
+        ]
+      },
+      "Saved Date": {
+        "date": {
+          "start": "2026-02-28"
+        }
+      },
+      "Read": {
+        "checkbox": false
+      },
+      "Favorite": {
+        "checkbox": false
+      },
+      "Language": {
+        "select": {
+          "name": "English"
+        }
+      },
+      "Word Count": {
+        "number": 3633
+      },
+      "Duration": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "14:33"
+            }
+          }
+        ]
+      }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "parent": { "database_id": "3144affb-d00c-813f-a989-e0d4c1341c35" },
+    "properties": {
+      "Title": {
+        "title": [
+          {
+            "text": {
+              "content": "Cedar Ball with Roof"
+            }
+          }
+        ]
+      },
+      "Source URL": {
+        "url": "https://jp.mercari.com/en/item/m76818888420?utm_source=ios&utm_medium=share&source_location=share"
+      },
+      "Type": {
+        "select": {
+          "name": "Article"
+        }
+      },
+      "Category": {
+        "multi_select": [
+          { "name": "Productivity" }
+        ]
+      },
+      "Summary": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "A Mercari listing for a 'Cedar Ball with Roof'. Details not extracted due to technical limitations (browser tool unavailable, web_fetch content primarily boilerplate)."
+            }
+          }
+        ]
+      },
+      "Key Takeaways": {
+        "rich_text": [
+          { "text": { "content": "• Potential item for purchase." } }
+        ]
+      },
+      "Author": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Unknown"
+            }
+          }
+        ]
+      },
+      "Source": {
+        "select": {
+          "name": "Manual Paste"
+        }
+      },
+      "Rating": {
+        "select": {
+          "name": "⭐⭐⭐ Good"
+        }
+      },
+      "Related To": {
+        "rich_text": [
+          {
+            "text": {
+                "content": "items to buy"
+            }
+          }
+        ]
+      },
+      "Saved Date": {
+        "date": {
+          "start": "2026-02-28"
+        }
+      },
+      "Read": {
+        "checkbox": false
+      },
+      "Favorite": {
+        "checkbox": false
+      },
+      "Language": {
+        "select": {
+          "name": "English"
+        }
+      },
+      "Word Count": {
+        "number": 0
+      }
+    }
+}
