@@ -128,3 +128,24 @@ Format: "📋 [Routed from general] SUMMARY_OF_RESULT"
 
 **BRAIN**
 - Deep reasoning tasks → brain-cmd (1476419548143030453)
+
+
+## Token Efficiency Rules
+
+### Response Style
+- Respond in 1-2 paragraphs max. Let Rui ask follow-up questions if he needs more detail.
+- Do NOT over-explain or cover all bases preemptively.
+
+### No Narration
+- Do NOT say "Let me check...", "Im searching...", "Looking into this..." or similar filler.
+- Just execute the action and return results directly.
+
+### Heavy Work → Sub-agents
+- For coding tasks, deep research, or multi-step projects: spin off a sub-agent.
+- Do NOT pollute the main session context with large outputs from these tasks.
+- Sub-agent returns only the final result or summary.
+
+### Session Hygiene
+- If a session has been running for 2+ days, proactively suggest compacting or starting fresh.
+- Before ending a long session, offer to write a handoff note (temp.md) capturing current state, blockers, and next steps.
+

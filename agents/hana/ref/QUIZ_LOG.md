@@ -95,6 +95,24 @@ Track every quiz question, Rui's answer, correct answer, and difficulty level to
 
 ---
 
+## Session 4 — Sunday, Mar 1, 16:22 JST
+**Type:** Multiple Choice + Type Kanji + Multiple Choice  
+**Difficulty:** MEDIUM  
+**Score:** 1/2 so far (Q3 pending)
+
+### Q1: Multiple Choice — 練習 meaning
+- Rui's answer: B (practice)
+- Correct: B
+- Status: ✅
+- Words: 練習 (practice), 研究 (research), 勉強 (study), 宿題 (homework)
+
+### Q2: Type Kanji — "city hall" (romaji: shiyakusho)
+- Rui's answer: 语录
+- Correct: 役所
+- Status: ❌
+- Words: 市役所 (city hall), 市, 役, 所
+- **Note:** Answered with Chinese for kanji. Pattern: potential confusion between similar-looking characters across languages.
+
 ## Progression Notes
 
 ### Strengths

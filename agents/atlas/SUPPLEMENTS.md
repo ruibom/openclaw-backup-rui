@@ -55,3 +55,4 @@ Bed: L-Theanine (if needed)
 |------|---------|-----------|-------|--------|-----|-------|
 | 2026-02-26 | — | — | — | ✅ | ✅ | ON cycle started. Dinner + Bed taken Feb 26 evening |
 | 2026-02-27 | ✅ | ✅ | ⏳ | ⏳ | ⏳ | L-Tyrosine + NAC + Methyl-Guard + Neuro-Mag taken. Lunch/Dinner/Bed pending. |
+| 2026-03-01 | ✅ | ✅ | ✗ | ⏳ | ⏳ | Morning + Breakfast done. Lunch stack skipped. Dinner + Bed tonight. |

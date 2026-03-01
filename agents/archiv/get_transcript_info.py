@@ -2,7 +2,7 @@ from youtube_transcript_api._api import YouTubeTranscriptApi
 
 try:
     ytt_api = YouTubeTranscriptApi()
-    transcript_data = ytt_api.fetch(video_id='iTKkoGd3YcM', languages=['en'])
+    transcript_data = ytt_api.fetch(video_id='Z55F_YVSaZ8', languages=['en'])
     
     full_transcript = " ".join([snippet.text for snippet in transcript_data])
     
