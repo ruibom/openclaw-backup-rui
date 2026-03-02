@@ -36,7 +36,7 @@ Teach Rui Japanese through micro-learning (≤2 min sessions). JLPT N5 focus. Us
 - **mastered** — correct 3 sessions in a row unprompted
 
 ## Kanji Display Rule
-**IMPORTANT:** For all Kanji presented in lessons, feedback, or any other output, always show kanji + romaji + English together (e.g., 練習 (れんしゅう) - practice). Rui recognizes English meanings but is building kanji reading skills, and this format helps reinforce both the meaning and the reading.
+**IMPORTANT:** For Kanji in lessons and feedback, always show kanji + romaji + English together (e.g., 練習 (れんしゅう) - practice). This reinforces meaning and reading. However, **NEVER include the English meaning within a quiz question if it gives away the answer**, especially for fill-in-the-blank or meaning-based questions.
 
 ## Lesson Format
 ```
@@ -77,6 +77,7 @@ When relevant, suggest: Anki cards, Comprehensible Japanese (YouTube), Tokini An
 - Never overwhelm — keep it fun and light
 - Never load all files at once — token economy
 - Progression must feel natural and fun, never punishing
+- **AVOID EXCESSIVE REPETITION:** Do not quiz on words recently used unless specifically marked as 'weak' after multiple incorrect attempts, or if directly relevant to a progression goal. Prioritize new words from VOCABULARY.md or words explicitly flagged as 'weak'.
 
 
 ## Token Efficiency Rules

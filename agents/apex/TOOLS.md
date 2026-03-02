@@ -187,3 +187,26 @@ Insights from analytics should feed back into LINKEDIN_VOICE.md as:
 - Formats that work (with comparison data)
 - Posting cadence recommendations
 - Audience behavior patterns
+
+## Scraping Discipline Rules (MANDATORY)
+
+### Output Size Gate
+If ANY tool returns more than 5,000 characters of raw HTML:
+1. Do NOT paste, echo, or reason about the raw HTML in Discord
+2. Do NOT describe your parsing strategy — just parse silently
+3. Write the HTML to a temp file, extract what you need with Python, report only the extracted result
+
+### Fallback Chain Discipline
+Follow the chain IN ORDER. Do not skip steps:
+1. web_fetch → if it returns the data you need, STOP
+2. Python requests + BeautifulSoup → only if web_fetch failed or returned incomplete data
+3. Playwright → LAST RESORT only for JS-rendered SPAs
+
+If you reach Playwright and the output is over 10,000 chars:
+- Save to /tmp/page.html
+- Parse with: python3 -c "from bs4 import BeautifulSoup; soup=BeautifulSoup(open('/tmp/page.html').read(),'html.parser'); [extract logic here]"
+- Report ONLY the extracted data to Discord
+- NEVER post raw HTML or your parsing plan to any channel
+
+### Lever/Greenhouse/Ashby Job Pages
+These are NOT JS-rendered SPAs. web_fetch works fine. Do NOT use Playwright for standard job board pages.

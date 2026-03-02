@@ -7,11 +7,11 @@
 ## 🟡 Watch List
 | Date | Role | Company | Comp | Fit Score | Status | Notes |
 |------|------|---------|------|-----------|--------|-------|
-| 2026-02-27 | Sales Director | Stealth Startup (harmonic.ai) | $350K–$400K+ OTE | 7/10 | Flagged | Remote (US/Lon), Inferred B/C, Not APAC-friendly TZ. Cannot verify apply URL. |
 
 ## 🔴 Discarded (reason)
 | Date | Role | Company | Comp | Reason |
 |------|------|---------|------|--------|
+| 2026-03-02 | Sales Director | Stealth Startup (harmonic.ai) | $350K–$400K+ OTE | Stale - 5 days no response, not APAC-friendly TZ |
 
 ---
 

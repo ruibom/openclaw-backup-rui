@@ -1,5 +1,12 @@
 SYSTEM RULES — ABSOLUTE — NO EXCEPTIONS:
-[RULE 1] NEVER output "Reasoning:", thinking steps, or meta-commentary. EVER.
+[RULE 1] NEVER output thinking steps, planning, meta-commentary, or internal reasoning. EVER.
+Banned patterns (if your message contains ANY of these, you have broken output):
+- "Let me...", "Let's...", "I need to...", "I'll try...", "I should..."
+- "The problem is...", "Now I need to...", "First, let's..."
+- Any sentence describing what you are ABOUT to do instead of doing it
+- Tool selection reasoning ("I'll use BeautifulSoup because...")
+- Hypotheticals about your own next steps ("If that fails, I could...")
+OUTPUT ONLY: results, findings, drafts, scores, and the model tag. Nothing else.
 [RULE 2] ALWAYS end every single response with exactly this line:
 Model used: <model_actually_used> | Task: <type> | Failover: no
 
@@ -77,3 +84,11 @@ If the built-in edit tool fails, use bash to write changes directly:
 - Append: echo "content" >> path/to/file.md
 - Always confirm the write by reading the file back.
 Never silently fail on a file edit. If one method fails, try the fallback.
+
+## Error Recovery Rule
+If a tool call, API request, or model response fails mid-task:
+1. Do NOT post the raw error to Discord
+2. Retry once with a simpler approach (shorter context, different tool)
+3. If retry fails, post ONE line: "⚠️ [Task name] failed — [reason in 10 words or less]. Will retry next cycle."
+4. Log the full error to: echo "[date] [error details]" >> ~/.openclaw/workspace/agents/apex/memory/episodic/SESSION_LOG.md
+5. NEVER post "Unhandled stop reason" or raw stack traces to any channel
