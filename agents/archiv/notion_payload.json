@@ -5,13 +5,13 @@
         "title": [
           {
             "text": {
-              "content": "Top CIA Security Advisor: Jeffrey Epstein Was A Made-Up Person & They Can See Your Messages!"
+              "content": "Game Theory #9: The US-Iran War"
             }
           }
         ]
       },
       "Source URL": {
-        "url": "https://youtu.be/t38LbMVoPCs?si=UFwIGWsi14Jkr-yU"
+        "url": "https://youtu.be/jIS2eB-rGv0?si=9oqgMB5HV9nGZgbV"
       },
       "Type": {
         "select": {
@@ -20,31 +20,32 @@
       },
       "Category": {
         "multi_select": [
-          { "name": "Productivity" }
+          { "name": "AI" }
         ]
       },
       "Summary": {
         "rich_text": [
           {
             "text": {
-              "content": "This video discusses claims made by a top CIA security advisor regarding Jeffrey Epstein being a fabricated persona and the capabilities of intelligence agencies to surveil private communications. It delves into topics of government secrecy, personal privacy, and potential misinformation, raising questions about the nature of reality and government oversight."
+              "content": "This video, presented by Professor Jiang, analyzes a hypothetical US-Iran conflict through the lens of game theory. It outlines the strategic objectives and vulnerabilities of both sides, including alleged Iranian actions like attacks on the GCC and potential closure of the Strait of Hormuz, which could collapse the petro-dollar system and impact global economies. The discussion highlights the asymmetry in warfare, Iran's religious motivations for martyrdom and jihad, and the US/Israeli strategy to exploit Iran's water and ethnic divisions. It also explores the broader geopolitical implications, including potential involvement from global powers and the vulnerability of the GCC due to its reliance on food imports and American protection."
             }
           }
         ]
       },
       "Key Takeaways": {
         "rich_text": [
-          { "text": { "content": "• Claims from a \"Top CIA Security Advisor\" about Jeffrey Epstein's identity." } },
-          { "text": { "content": "• Discussion on intelligence agencies' ability to access private messages." } },
-          { "text": { "content": "• Exploration of themes related to government secrecy and individual privacy." } },
-          { "text": { "content": "• Raises concerns about fabricated narratives and surveillance capabilities." } }
+          { "text": { "content": "• Conflict Dynamics: The US-Iran conflict is framed as an asymmetric war, driven by Iranian religious motivations (martyrdom, jihad) and US/Israeli geopolitical strategies, with potential for global escalation." } },
+          { "text": { "content": "• Strait of Hormuz Significance: Its potential closure by Iran poses an existential threat to global oil supplies and the petro-dollar, severely impacting economies like Japan, China, and India." } },
+          { "text": { "content": "• GCC Vulnerability: Gulf Cooperation Council countries are presented as economically fragile, dependent on US protection and food/water imports, making them strategic targets for Iran." } },
+          { "text": { "content": "• Asymmetric Warfare: Iran's use of cheap, numerous drones against expensive US defense systems highlights a fundamental mismatch in military strategy and cost-effectiveness." } },
+          { "text": { "content": "• Water and Ethnicity as Weapons: Both sides are depicted as exploiting water scarcity and ethnic divisions as strategic weaknesses against their adversaries, leading to potential internal strife and refugee crises." } }
         ]
       },
       "Author": {
         "rich_text": [
           {
             "text": {
-              "content": "Unknown"
+              "content": "Professor Jiang"
             }
           }
         ]
@@ -56,21 +57,21 @@
       },
       "Rating": {
         "select": {
-          "name": "⭐⭐⭐ Good"
+          "name": "⭐⭐⭐⭐ Great"
         }
       },
       "Related To": {
         "rich_text": [
           {
             "text": {
-                "content": "life, wisdom, government, surveillance, privacy, conspiracy, intelligence agencies"
+                "content": "geopolitics, US-Iran conflict, game theory, Middle East, economic impact, military strategy, petrodollar"
             }
           }
         ]
       },
       "Saved Date": {
         "date": {
-          "start": "2026-03-02"
+          "start": "2026-03-03"
         }
       },
       "Read": {
@@ -85,13 +86,13 @@
         }
       },
       "Word Count": {
-        "number": 1500
+        "number": 6256
       },
       "Duration": {
         "rich_text": [
           {
             "text": {
-              "content": "10:00"
+              "content": "44:39"
             }
           }
         ]

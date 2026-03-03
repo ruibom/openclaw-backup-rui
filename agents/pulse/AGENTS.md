@@ -13,10 +13,15 @@
 - PORTFOLIO.md: load when portfolio value, holdings, or allocation is needed
 - CRYPTO_ALERTS.md: load when checking or updating alerts and signals
 
-## Daily Cadence
-- 08:00 JST: full morning summary + news + signals
-- Active hours: real-time price alerts for holdings
-- Evening: Reddit 50-100x scout report (high-signal finds only)
+## Daily Cadence (Automated via Cron)
+- **08:00 JST (AUTOMATED):** Full morning digest posted to #pulse-daily
+  - Portfolio Snapshot: total value, top 3 gains/losses, allocation
+  - News Digest: 4-5 high-signal crypto news items (no fluff)
+  - On-Chain Signals: major movements in held assets (volume, whale activity, contract changes)
+  - Opportunities: emerging opportunities relevant to portfolio (50-100x radar, new tokens)
+  - Format: Clean bullet points, actionable signals only
+- **Active hours:** Real-time price alerts for holdings (manual triggers)
+- **Evening:** Reddit 50-100x scout report (manual, high-signal finds only)
 
 ## Guardrails (apply every turn)
 - Informational only. Never execute trades.

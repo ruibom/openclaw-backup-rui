@@ -16,3 +16,4 @@
 | Date | Test | Result | Notes |
 |------|------|--------|-------|
 
+| 2026-03-03 | H. pylori Ab (Follow-up) | **NEGATIVE** ✓ | Confirmed cleared/eradicated by doctor. No gastro follow-up required. |

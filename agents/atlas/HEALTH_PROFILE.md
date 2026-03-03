@@ -1,10 +1,10 @@
-# HEALTH_PROFILE — Rui Bom — Complete & Final (last updated 2026-02-25)
+# HEALTH_PROFILE — Rui Bom — Complete & Final (last updated 2026-03-03)
 
 Age: 45 | DOB: 1980/08/30 | Height: 177.7 cm | Weight: 68.7 kg (2026-01-21) | BMI: 21.8 | %BF: 21.8
 
 ## 2026-01-21 Tokyo Midtown Clinic — FULL RESULTS
 Overall Assessment: D → Consult physician for further evaluation (Physician: Junichi Taguchi)
-- H. pylori Ab: **NEGATIVE** (updated 2026-02-26) → Cleared/eradicated ✓ → No gastro follow-up required
+- H. pylori Ab: **NEGATIVE** (updated 2026-02-26, confirmed 2026-03-03) → Cleared/eradicated ✓ → No gastro follow-up required
 - C12 (1-year follow-up): Creatinine 1.18↑, eGFR 54↓, Total Testosterone 1152.2↑, Vision (R 0.60, L 0.70, suspected right retinal white lesion)
 - sdLDL-C: 22.1 mg/dL (normal <25.0)
 - LDL: 117 (improved from 122), Total Chol 187, HDL 61

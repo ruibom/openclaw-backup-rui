@@ -1,19 +1,19 @@
 # PORTFOLIO.md — Rui's Crypto Holdings (Baseline 2026-02-19 16:45 JST)
 
-Total Value: €47,800
-24h Change: -€9,737 (-16.9%)
+Total Value: €54,425
+24h Change: +€6,625 (+13.9%)
 
 ## Top 10 Holdings by Value
-1. BTC: 0.21 — €11,939
-2. ETH: 4.72 — €7,859
-3. XRP: 5,247 — €6,139
-4. LINK: 802 — €6,015
-5. TAO: 35.4 — €5,493
-6. SOL: 76.8 — €5,485
-7. FET: 14,994 — €1,999
-8. DOGE: 19,511 — €1,553
-9. ADA: 6,463 — €1,536
-10. ATOM: 649.6 — €1,020
+1. BTC: 0.21 — €12,462
+2. ETH: 4.72 — €8,287
+3. XRP: 5,247 — €6,296
+4. LINK: 802 — €6,216
+5. SOL: 76.8 — €5,782
+6. TAO: 35.4 — €5,752
+7. FET: 14,994 — €1,964
+8. DOGE: 19,511 — €1,582
+9. ADA: 6,463 — €1,551
+10. ATOM: 649.6 — €1,033
 
 ## Additional Positions
 OP, INJ, PENDLE, RUNE, NIGHT, GALA, ARB, PYTH, AVAX, AAVE, STX, SUI, PEPE, ONDO, CRO, TIA, TRUMP, AKT, POL, WLD, S, EGLD, USDC
@@ -26,3 +26,4 @@ Pulse updates this file when Rui shares new snapshots.
 2026-02-28 | €57,650 | -€1,786 | -3.0%
 2026-03-01 | €57,537 | -€1,900 | -3.2%
 2026-03-02 | €47,800 | -€11,637 | -19.6%
+2026-03-03 | €54,425 | -€5,012 | -8.4%

@@ -14,14 +14,46 @@ Accept job URL or description from Rui or proactive search.
 ### Step 2 — Score
 Load CAREER_PROFILE.md. Score against criteria. If below 8 → report score + reason, stop.
 
-### Step 3 — Verify (MANDATORY)
-Follow skill: ~/.openclaw/workspace/skills/browser.md
-- Navigate to the job URL
-- Confirm real job posting loads and that the job is still open and active.
-- Check for "closed/removed/expired/404" → if found, report to Rui immediately, stop
-- Find Apply button, click it, confirm it leads to a real, functional application form where all links are clickable.
-- Record verified application URL
-- IF BROWSER TOOL IS UNAVAILABLE → use web_search to find the job posting URL and web_fetch to verify it. Only stop if the job cannot be verified by any method.
+### Step 3 — Verify (MANDATORY — NO EXCEPTIONS)
+**ABSOLUTE RULE: If job is not confirmed ACTIVE and APPLICATION FORM EXISTS, STOP immediately. Do NOT proceed.**
+
+1. **Fetch the job posting URL:**
+   - First attempt: use `web_fetch` on the URL
+   - If response is <500 chars OR contains "404" OR "not found" OR "page expired" → **JOB IS DEAD. Stop immediately. Report to Rui: "Job posting appears closed/removed."**
+   - If response is JS-heavy (Ashby, Greenhouse, Lever, Workday): use `web_search "[Company] [Role Title]" site:[job_board]` to get the direct posting URL
+
+2. **Verify job is ACTIVE:**
+   - Check posting date: must be recent (within 30 days) OR actively recruiting language present
+   - Look for: "Apply now", "Submit application", "Hiring", hiring manager contact, active status indicator
+   - If posting says "CLOSED", "No longer accepting", "Position filled" → **JOB IS DEAD. Stop. Report to Rui.**
+
+3. **Find the application form:**
+   - Locate the actual application URL (not just the job description page)
+   - Click Apply button (or use browser tool) and confirm form loads
+   - Extract ALL application questions and fields
+   - If form does not load OR returns 404 → **FORM IS BROKEN. Stop. Report to Rui with error.**
+
+4. **Record verified URLs:**
+   - Job posting URL (the page Rui will reference)
+   - Application form URL (where answers will be submitted)
+   - Both must be live and functional before proceeding
+
+5. **Fallback if browser unavailable:**
+   - Use Playwright headless browser (same as archiv):
+     ```python
+     from playwright.async_api import async_playwright
+     async with async_playwright() as p:
+         browser = await p.chromium.launch(headless=True)
+         page = await browser.new_page()
+         await page.goto(url, wait_until='domcontentloaded')
+         # Check page title and content for job details
+         title = await page.title()
+         content = await page.content()
+         # Verify job is not 404 or expired
+     ```
+   - If Playwright also fails → **Do not proceed. Report technical error to Rui.**
+
+**DO NOT SKIP THIS STEP. DO NOT ASSUME JOB IS ACTIVE. VERIFY EVERY TIME.**
 
 ### Step 4 — Research
 Search for company news, funding, team size, leadership. Note hiring manager or relevant contact + LinkedIn URL.
@@ -31,12 +63,26 @@ Revise score after research if needed.
 
 ### Step 6 — Application Pack
 - Load CAREER_PROFILE.md and LINKEDIN_VOICE.md
-- Navigate to verified application URL using browser tool
-- Scroll entire form, extract every question
+- Navigate to verified application URL using browser tool OR Playwright
+- **MANDATORY: Extract EVERY question from the form.** Do not skip, do not summarize. Get exact wording.
+  ```python
+  # Use Playwright to extract all form fields
+  from playwright.async_api import async_playwright
+  async with async_playwright() as p:
+      browser = await p.chromium.launch(headless=True)
+      page = await browser.new_page()
+      await page.goto(app_url, wait_until='domcontentloaded')
+      
+      # Find all labels, input fields, textareas
+      labels = await page.query_selector_all('label')
+      questions = [await label.text_content() for label in labels]
+      print("Questions found:", questions)
+  ```
 - Answer all questions in Eftsure format (reference: https://raw.githubusercontent.com/ruibom/openclaw-backup-rui/main/applications/eftsure-head-revops.md)
 - Save to GitHub: repo ruibom/openclaw-backup-rui, path applications/, filename {company-slug}-{role-slug}.md
 - Confirm file is publicly accessible at raw URL
 - Record that raw URL for Notion
+- **If any question cannot be answered or form is broken: Stop. Report to Rui with screenshot + error. Do NOT save partial answers.**
 
 ### Step 7 — Save to Notion
 Follow skill: ~/.openclaw/workspace/skills/notion.md
@@ -83,6 +129,29 @@ Decision:
 - 5 or below → reject, report score breakdown, stop
 
 Always show the breakdown (e.g. Remote:2 Comp:2 Senior:2 Stage:1 TZ:1 = 8) never just the total.
+
+
+## API & Job Board Freshness (CRITICAL)
+
+**Every job link must be verified as active and recent. Stale data = wasted time.**
+
+### Job boards apex uses (must be checked regularly):
+- **LinkedIn Jobs** — Check last updated date on posting. Must be within 30 days.
+- **APIfy** — Verify endpoint is current. Check response timestamps. If > 7 days old, flag as stale.
+- **Ashby** — Jobs expire 30-60 days after posting. Use web_search to confirm role is still listed.
+- **Greenhouse** — Similar to Ashby. Cross-reference with company's careers page.
+- **Lever** — Check for "actively hiring" language. Old postings remain visible but are inactive.
+- **Workday** — Often shows archived roles. Always verify posting date.
+- **Newsletter curated leads** — Most are 1-3 days old by the time Rui sees them. Assume they may be outdated. Verify every single one.
+
+### Before presenting ANY job to Rui:
+1. Confirm posting was updated in the last 30 days
+2. Confirm application form is functional (not redirecting, not 404)
+3. If APIfy or other data source used: verify timestamp is current
+4. If role is not explicitly searchable on company careers page: verify it via web_search before presenting
+5. If you have ANY doubt about freshness: test the application link with Playwright
+
+**Default assumption: All job links are potentially stale until proven fresh.**
 
 
 ## Inbound & Post-Interview Workflows
