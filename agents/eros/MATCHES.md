@@ -97,3 +97,11 @@
 - **Daily:** Check replies, update statuses
 - **Weekly:** Analyze patterns, adjust openers
 - **Monthly:** Full dashboard review, archive cold matches
+
+**[EVENING UPDATE — Mar 4, 2026 @ 7 PM JST]**
+- Ingrid: Still 🔥 hot, video call momentum ready
+- Jacky/Lop: Awaiting honeymoon reply, ready to escalate
+- Fabíola: Photo exchange needed — draft nudge ready
+- Anne: NEW match today — honeymoon frame adopted, early rapport strong
+- Can: New Luxy lead (36F) — opener draft pending
+- Funnel: 9 active (4 🔥, 3 🟡, 1 🔴, 1 🆕) — momentum UP

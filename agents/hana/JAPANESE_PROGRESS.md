@@ -1,7 +1,7 @@
 # JAPANESE_PROGRESS.md — Rui's Japanese Learning Progress (Hana maintains)
 
 ## Current Streak
-5 days (started Friday, Feb 27, 2026)
+6 days (started Friday, Feb 27, 2026)
 
 ## Mastered Words
 (none yet — building momentum)

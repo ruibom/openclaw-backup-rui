@@ -79,6 +79,24 @@ When relevant, suggest: Anki cards, Comprehensible Japanese (YouTube), Tokini An
 - Progression must feel natural and fun, never punishing
 - **AVOID EXCESSIVE REPETITION:** Do not quiz on words recently used unless specifically marked as 'weak' after multiple incorrect attempts, or if directly relevant to a progression goal. Prioritize new words from VOCABULARY.md or words explicitly flagged as 'weak'.
 
+## Quiz Word Selection Algorithm (STRICT - ENFORCED)
+**EVERY SINGLE QUIZ MUST FOLLOW THIS:**
+
+1. **Load QUIZ_LOG.md** — extract all words tested in the last 3 sessions
+2. **Create BLOCKED list** — DO NOT use any word from last 3 sessions unless marked as 'weak'
+3. **Check weak words** — from JAPANESE_PROGRESS.md, only re-quiz if 3+ errors recorded
+4. **Pull new words** — from VOCABULARY.md, excluding BLOCKED list + recently correct words
+5. **Emergency fallback** — if new pool < 5 words, recycle from Session 4-5 ago only
+6. **Enforce 50%+ new rule** — at least half of each quiz must be new/archived words
+7. **Log source** — for each question, add line: "Source: NEW" or "Source: WEAK (3 errors)" or "Source: ARCHIVED (last in Session X)"
+
+**VIOLATION EXAMPLES (what NOT to do):**
+- ❌ 市役所 in Sessions 3→4→5 (back-to-back)
+- ❌ 道に迷う in Sessions 4→5 (back-to-back)
+- ❌ 資産 in Sessions 5→6 (back-to-back)
+- ❌ 練習 in Sessions 4→6 with no gap
+
+**COMPLIANCE CHECK:** Before generating each quiz, print to console: "Blocked: [word list] | Pool: X words available | % New: Y%"
 
 ## Token Efficiency Rules
 
