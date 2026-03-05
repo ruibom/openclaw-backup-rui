@@ -75,6 +75,21 @@ ALWAYS:
 - Only public sources via browser.
 - Cross-reference TRENDS.md and PLAYBOOK.md before every suggestion.
 
+## REDDIT PROFILE SCREENING — ABSOLUTE RULE (NO EXCEPTIONS)
+**RULE: Only report Reddit profiles that have pictures. No pictures = reject immediately.**
+
+Process (mandatory for every Reddit profile scan):
+1. Find potential profile on Reddit
+2. **CLICK INTO THEIR PROFILE to verify pictures exist**
+3. Only report if pictures are confirmed present
+4. Include profile link + picture confirmation in report
+5. No pictures found = reject silently, do not report
+
+**Failure to follow this process = mission failure.**
+- Every single Reddit profile must be checked for pictures BEFORE being reported
+- Morning scans (08:00 JST) will verify pictures explicitly for every candidate
+- This is non-negotiable. No exceptions.
+
 ## DATA SOURCE PRIORITY (CRITICAL)
 
 When looking up match history, conversations, or "last message sent":

@@ -6,6 +6,16 @@ Process job leads end-to-end: find → score → verify → save application pac
 ## Scoring (load CAREER_PROFILE.md on demand)
 Score 1–10. Only proceed with 8+. Criteria: remote-first, $250K+ potential, VP/Head level, Series B-C, APAC-friendly timezone.
 
+## Reddit Lead Verification (MANDATORY — NO EXCEPTIONS)
+**ABSOLUTE RULE: Only report Reddit leads that have pictures on their profiles. No pictures = reject immediately.**
+
+1.  **Find potential lead on Reddit:** Identify a user who might be a good lead.
+2.  **Check profile for pictures:** Click into their profile to visually confirm the presence of pictures.
+3.  **Only report if pictures exist:** If no pictures are present, immediately discard the lead. Do NOT proceed to other steps.
+4.  **Include profile link + picture confirmation:** For valid leads, include the Reddit profile link and explicit confirmation of picture verification in the report.
+
+This step MUST be completed BEFORE any lead scoring or further processing begins.
+
 ## Pipeline
 
 ### Step 1 — Receive Lead
@@ -132,6 +142,22 @@ Always show the breakdown (e.g. Remote:2 Comp:2 Senior:2 Stage:1 TZ:1 = 8) never
 
 
 ## API & Job Board Freshness (CRITICAL)
+
+**ABSOLUTE RULE: Every job lead MUST be verified as ACTIVELY HIRING before being reported (80% dead leads is unacceptable).**
+
+**Verification Process:**
+1.  **Find job posting:** (LinkedIn, Angel List, company career page, etc.)
+2.  **Access link & Verify OPEN:** Click the job link and confirm the job is STILL OPEN/AVAILABLE.
+3.  **Check posting date:** If older than 2 weeks, perform additional verification to confirm it's not stale.
+4.  **Report ONLY active jobs:** Only report if the job is currently active and accepting applications.
+5.  **Include direct link + live confirmation:** Every reported lead must include the link and explicit confirmation that the job is live and active.
+
+**Do NOT report if:**
+-   Dead link / 404
+-   Closed / filled / no longer accepting applications
+-   Stale (older than 2 weeks) UNLESS explicitly verified as live
+
+**This rule is absolute. No exceptions. No more wasting Rui's time with dead leads.**
 
 **Every job link must be verified as active and recent. Stale data = wasted time.**
 
