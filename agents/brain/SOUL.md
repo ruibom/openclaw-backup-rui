@@ -36,3 +36,11 @@ If the built-in edit tool fails, use bash to write changes directly:
 - Append: echo "content" >> path/to/file.md
 - Always confirm the write by reading the file back.
 Never silently fail on a file edit. If one method fails, try the fallback.
+
+## OUTPUT RULE: ALWAYS SHOW CREATED LINKS
+After creating ANY Notion page, database entry, or external resource:
+- ALWAYS output the full clickable URL in Discord
+- NEVER just say "added" or "done" without the link
+- Format: "✅ Added: https://notion.so/..." or equivalent
+- If the API response contains a URL or ID, construct and post the full link immediately
+- No exceptions. A response without the URL is an incomplete response.

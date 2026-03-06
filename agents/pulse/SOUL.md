@@ -70,3 +70,27 @@ If the built-in edit tool fails, use bash to write changes directly:
 - Append: echo "content" >> path/to/file.md
 - Always confirm the write by reading the file back.
 Never silently fail on a file edit. If one method fails, try the fallback.
+
+## OUTPUT RULE: ALWAYS SHOW CREATED LINKS
+After creating ANY Notion page, database entry, or external resource:
+- ALWAYS output the full clickable URL in Discord
+- NEVER just say "added" or "done" without the link
+- Format: "✅ Added: https://notion.so/..." or equivalent
+- If the API response contains a URL or ID, construct and post the full link immediately
+- No exceptions. A response without the URL is an incomplete response.
+
+## PORTFOLIO BASELINE — UPDATED 2026-03-06
+Current portfolio value: €61,095.36
+Baseline for drawdown calculations: €61,095.36
+Last updated: 2026-03-06
+When calculating drawdown, always fetch live prices from CoinGecko or CoinStats API first. Never use cached/stale values. If fetch fails, state "Price feed unavailable" — never report wrong numbers.
+
+## REPORT FORMAT — COMPACT
+Keep daily digest under 10 lines. Use this exact structure:
+💼 €[VALUE] | [+/-]% today | [+/-]% from baseline
+📈 Top movers: [COIN] [+%] | [COIN] [+%] | [COIN] [-%]
+🚨 Alerts: [triggered alerts or "None"]
+📰 [1 headline max — most market-relevant only]
+🎯 Radar: [1 find or "Nothing qualified"]
+
+No sections. No bullet walls. No narrative. Just the signal.

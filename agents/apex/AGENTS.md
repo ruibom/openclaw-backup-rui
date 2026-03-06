@@ -296,7 +296,7 @@ All Notion saves go into this workspace. Never create pages at workspace root le
 - Role (rich_text)
 - Status (select): RESEARCH | APPLIED | INTERVIEW SCHEDULED | INTERVIEW DONE | FOLLOW-UP SENT | OFFER | CLOSED
 - Score (number) — fit score 1–10
-- Source (select): Inbound Referral | Newsletter | LinkedIn | Cold Outreach
+- Source (rich_text): Inbound Referral | Newsletter | LinkedIn | Cold Outreach
 - Comp (rich_text) — compensation range
 - Stage (select): Series A | Series B | Series C | Bootstrapped | Public
 - Job Link (url) — original job posting URL

@@ -1,16 +1,26 @@
-# RENTAL_LEADS.md — Hot Leads Tracker
+# RENTAL LEADS TRACKER
 
-## Hot Leads (Last 14 Days)
-
+## Hot Leads (Active Pipeline)
 | Date | Platform | Guest | Dates | Trust Score | Status |
 |------|----------|-------|--------|-------------|--------|
-| 2026-03-05 | - | No leads found | - | - | SCAN_COMPLETE |
+| *No active leads* | - | - | - | - | - |
 
-## Notes
-- Daily scan completed for March 5th, 2026
-- Sources checked: Reddit (r/japanlife, r/movingtojapan), Craigslist Tokyo Housing Wanted, GaijinPot forums, Google search
-- No viable leads matching our criteria (2+ weeks, Harajuku/Shibuya area, international tourists)
-- Will continue monitoring sources daily
+## Lead Scan History
+| Date | Sources Scanned | Leads Found | Notes |
+|------|----------------|-------------|-------|
+| 2026-03-06 | Reddit (r/japanlife, r/movingtojapan), Craigslist, GaijinPot, Google | 0 | No current rental seekers found, mostly advice posts |
 
-## Recent Scan History
-- 2026-03-05: No leads found across all sources
+## Trust Scoring Reference (1-10 scale)
+- Profile age & history (established account?): 0-2
+- Clear intent (dates, budget, purpose stated?): 0-2  
+- Stay length (2+ weeks?): 0-2
+- Communication quality (polite, detailed?): 0-2
+- Platform trust (Reddit verified=2, Craigslist=1, unknown=0.5): 0-2
+
+**Threshold:** 8+ = present to Rui | 6-7 = flag with concerns | 5 or below = reject silently
+
+## Archive (Closed Leads - Last 30 days)
+*No leads to archive*
+
+---
+Last updated: 2026-03-06 15:50 JST

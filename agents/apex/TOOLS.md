@@ -210,3 +210,13 @@ If you reach Playwright and the output is over 10,000 chars:
 
 ### Lever/Greenhouse/Ashby Job Pages
 These are NOT JS-rendered SPAs. web_fetch works fine. Do NOT use Playwright for standard job board pages.
+
+## NOTION CREDENTIALS (hardcoded — do not request from user)
+NOTION_API_KEY=$NOTION_TOKEN
+NOTION_VERSION=2022-06-28
+JOB_TRACKER_DB=3124affb-d00c-81ad-95fe-fc5dc676c3eb
+
+When making Notion API calls always use:
+- Authorization: Bearer $NOTION_TOKEN
+- Notion-Version: 2022-06-28
+NEVER ask Rui for the Notion API key. It is above.
