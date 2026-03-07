@@ -8,6 +8,7 @@
 ## Lead Scan History
 | Date | Sources Scanned | Leads Found | Notes |
 |------|----------------|-------------|-------|
+| 2026-03-07 | Reddit (r/japanlife, r/movingtojapan, r/TokyoRentals), Craigslist HW, GaijinPot, Google | 0 | All sources yielded stale posts (6+ months old) or irrelevant housing types |
 | 2026-03-06 | Reddit (r/japanlife, r/movingtojapan), Craigslist, GaijinPot, Google | 0 | No current rental seekers found, mostly advice posts |
 
 ## Trust Scoring Reference (1-10 scale)
@@ -23,4 +24,4 @@
 *No leads to archive*
 
 ---
-Last updated: 2026-03-06 15:50 JST
+Last updated: 2026-03-07 09:00 JST
