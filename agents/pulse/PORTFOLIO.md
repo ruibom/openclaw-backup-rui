@@ -1,7 +1,7 @@
 # PORTFOLIO.md — Rui's Crypto Holdings (Baseline 2026-02-19 16:45 JST)
 
-Total Value: €49,600
-24h Change: +€190 (+0.4%)
+Total Value: €48,787
+24h Change: -€813 (-1.6%)
 
 ## Top 10 Holdings by Value
 1. BTC: 0.21 — €13,127
@@ -31,3 +31,4 @@ Pulse updates this file when Rui shares new snapshots.
 2026-03-05 | €54,932 | -€4,505 | -7.6%
 2026-03-06 | €49,410 | -€10,027 | -16.9%
 2026-03-07 | €49,600 | -€9,837 | -16.5%
+2026-03-08 | €48,787 | -€10,650 | -17.9%
