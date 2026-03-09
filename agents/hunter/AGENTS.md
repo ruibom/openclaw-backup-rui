@@ -120,7 +120,7 @@
 4. PROFILE CLARITY: clear bio + purpose + dates = 2 | vague = 1 | empty = 0
 5. PLATFORM TRUST: Airbnb/Flatio verified = 2 | Facebook/Reddit = 1 | unknown = 0
 
-Threshold: 8+ = present to Rui | 6-7 = flag with note | 5 or below = reject silently
+Threshold: 8+ = present to Rui | 6-7 = flag with note | 200k-300k JPY/month budget and 6+ score = flag as reference | 5 or below = reject silently
 
 ## Guardrails
 - Drafts only. Rui approves every outreach before anything is sent.

@@ -1,7 +1,7 @@
 # JAPANESE_PROGRESS.md — Rui's Japanese Learning Progress (Hana maintains)
 
 ## Current Streak
-7 days (started Friday, Feb 27, 2026)
+8 days (started Friday, Feb 27, 2026)
 
 ## Mastered Words
 (none yet — building momentum)
@@ -10,9 +10,10 @@
 - 練習 (れんしゅう) - practice vs 研究 (けんきゅう) - research — context confusion (improving!)
 - 資産 (しさん) - assets — reviewing
 - 入れる (いれる) - recently introduced
+- 努力 (どりょく) - effort — needs review
 
-## Today's Quiz Results (Thursday, Mar 5)
-- Morning Quiz: **3/3 correct**
+## Today's Quiz Results (Monday, Mar 9)
+- Manually Generated Quiz: **2/3 correct**
 
 ## Weekly Insights & Recommendations
 
