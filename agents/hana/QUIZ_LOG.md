@@ -1,25 +1,26 @@
 
 ---
 
-## Session 12 — Monday, Mar 9, 14:51 JST
-**Type:** Multiple Choice (JP → EN) + Type Kanji + Type Romaji
-**Difficulty:** MEDIUM
-**Score:** 2/3
+## Session 13 — Tuesday, Mar 10, 22:05 JST
+**Type:** Multiple Choice (JP → EN) + Fill-in-the-Blank (JP Sentence) + Type Romaji (Kanji → Romaji)
+**Difficulty:** MEDIUM-HARD
+**Score:** 0/3
 
-### Q1: Multiple Choice — 努力 (どりょく) meaning
-- Rui's answer: A (luck)
-- Correct: B (effort)
+### Q1: Multiple Choice — 快適 (かいでき) meaning
+- Rui's answer: A (productive)
+- Correct: B (comfortable)
 - Status: ❌
-- Words: 努力 (doryoku), 幸運 (kōun), 挑戦 (chōsen), 間違い (machigai)
+- Words: 快適 (kaiteki), 生産性 (seisansei), 困難 (konnan), 空っぽ (karappo)
 
-### Q2: Type Kanji — "city hall" (shiyakusho)
-- Rui's answer: 市役所
-- Correct: 市役所
-- Status: ✅
-- Words: 市役所 (shiyakusho)
+### Q2: Fill-in-the-Blank — このプロジェクトの時間は完全に＿＿＿＿だった。
+- Rui's answer: ちょうど
+- Correct: 無駄 (muda)
+- Status: ❌
+- Words: 無駄 (muda), ちょうど (choudo)
 
-### Q3: Type Romaji — 道に迷う
-- Rui's answer: michi ni mayou
-- Correct: michi ni mayou
-- Status: ✅
-- Words: 道に迷う (michi ni mayou)
+### Q3: Type Romaji — 稼ぐ (かせぐ)
+- Rui's answer: keigu
+- Correct: kasegu
+- Status: ❌
+- Words: 稼ぐ (kasegu)
+- **Note:** Incorrect romaji for '稼ぐ'. Pattern: Romaji for less common kanji readings.
