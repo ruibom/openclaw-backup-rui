@@ -1,4 +1,9 @@
-# RENTAL LEADS TRACKER
+# RENTAL LEADS
+
+## Hot Leads (Daily Scan Results)
+
+| Date | Platform | Guest | Dates | Trust Score | Status |
+|------|----------|-------|-------|-------------|--------| TRACKER
 
 ## Hot Leads
 | Date | Platform | Guest | Dates | Trust Score | Status |
